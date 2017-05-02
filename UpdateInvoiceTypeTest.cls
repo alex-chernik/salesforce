@@ -1,5 +1,5 @@
 @IsTest
-private class UpdateInvoiceTypeTest
+private class Test_UpdateInvoiceType
 {
 	@isTest
 	static void testInvoiceUpdate()
