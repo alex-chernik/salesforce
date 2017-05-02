@@ -42,22 +42,4 @@ public with sharing class CheckListClientController
 			}
 		}
 	}
-
-	/*@TestVisible
-	private List<CheckList__c> sortMethod(List<CheckList__c> results)
-	{
-		for (Integer barrier = 0; barrier < results.size() - 1; barrier++)
-		{
-			for (Integer i = barrier + 1; i < results.size(); i++)
-			{
-				if (results.get(i).Order__c < results.get(barrier).Order__c)
-				{
-					Integer tmp = Integer.valueOf(results.get(i).Order__c);
-					results.get(i).Order__c = results.get(barrier).Order__c;
-					results.get(barrier).Order__c = tmp;
-				}
-			}
-		}
-		return results;
-	}*/
 }
