@@ -25,8 +25,6 @@ private class Test_CheckListClientController
 		ApexPages.StandardController stc = new ApexPages.StandardController(itinerary);
 		controller = new CheckListClientController(stc);
 
-		controller.results.addAll(checklistToInsert);
-
 	}
 
 	@isTest
