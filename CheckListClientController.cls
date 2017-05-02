@@ -3,7 +3,7 @@ public with sharing class CheckListClientController
 	public List<CheckList__c> results {get; set;}
 
 	private Itinerary__c itinerary;
-	private @TestVisible Id checklistId;
+	@TestVisible private Id checklistId;
 
 	public CheckListClientController(Apexpages.StandardController controller)
 	{
